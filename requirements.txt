@@ -1,0 +1,4 @@
+requests==2.25.1
+pyTelegramBotAPI==3.7.7
+aiohttp==3.7.3
+asyncio==3.4.3

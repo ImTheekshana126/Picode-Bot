@@ -1,0 +1,12 @@
+[Unit]
+After=network.target
+Description=Bot is running...
+
+[Service]
+Type=simple
+WorkingDirectory=/root/PicodeBotFile
+ExecStart=/usr/bin/python3 main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
